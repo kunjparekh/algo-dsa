@@ -1,0 +1,5 @@
+==> Auxiliry space complexity(ASC) :
+  - It's basically gives the depth of the recursion.
+  - Suppose you are finding fibbonaci series using recursion and if you are finding f(6) then accroding to recurrsion f(6) calls 
+    f(5) then f(5) calls f(4) and so on... so any number n there are at max n functions(executions) are waiting in computer 
+    stack so the total ASC go down to O(N). Similarally for finding ASC for any code see the depth in stack.
