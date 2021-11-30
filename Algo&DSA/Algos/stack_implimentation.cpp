@@ -177,21 +177,3 @@ break;
 }while(choice!=0);
  return 0; 
 }
-/*
- loop1 0<i<n
- {
-     min = a[0] - a[1];
-     if(min<0)
-     min = min*(-1);
-     loop2 2<j<n
-     {
-        x = a[i] - a[j];
-        if(x<0)
-        x = x*(-1);
-        if(min<x)
-        min = x;
-        if(min == 0)
-        break;
-     }
- }
-*/
