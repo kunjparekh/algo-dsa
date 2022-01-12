@@ -9,7 +9,7 @@ int cseq(vector<int> &v)
        s.insert(it);
    }
    int longestseq = 0;
-   for(int it:v
+   for(int it:v)
    {
        if(!s.count(it-1))
        {
